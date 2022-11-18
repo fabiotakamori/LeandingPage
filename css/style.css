@@ -1,0 +1,58 @@
+#cabecalho {
+  text-align: center; }
+  #cabecalho .logo {
+    background-color: black; }
+  #cabecalho .banner {
+    padding: 20px; }
+    #cabecalho .banner .container {
+      margin-bottom: 0px !important; }
+      #cabecalho .banner .container img {
+        max-width: 100%;
+        max-height: 100%; }
+
+.banners .col-lg-6 {
+  text-align: center; }
+  .banners .col-lg-6 img {
+    width: 400px; }
+
+#corpo a {
+  text-decoration: none;
+  color: black; }
+  #corpo a .card div {
+    text-align: center; }
+    #corpo a .card div img {
+      max-width: 200px;
+      min-height: 200px;
+      display: inline; }
+  #corpo a .card button:hover {
+    box-shadow: 5px 5px 0 #000;
+    -webkit-transition: translate box-shadow color .25s;
+    -o-transition: translate box-shadow color .25s;
+    -moz-transition: translate box-shadow color .25s; }
+
+.container .owl-nav {
+  display: flex;
+  justify-content: space-between; }
+  .container .owl-nav .owl-prev {
+    font-size: 40px !important; }
+  .container .owl-nav .owl-next {
+    font-size: 40px !important; }
+
+footer {
+  margin-top: 40px;
+  background-color: black;
+  min-height: 300px;
+  padding: 20px; }
+  footer .container .row h5 {
+    font-weight: bold;
+    color: white; }
+  footer .container .row .mais-info {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    footer .container .row .mais-info a {
+      text-decoration: none;
+      color: white;
+      display: block; }
+    footer .container .row .mais-info p {
+      color: white;
+      margin-bottom: 0px; }
